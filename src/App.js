@@ -1,12 +1,13 @@
 
 import React from "react";
 import TestComponent from "./TestComponent";
+import Tweet from "./Tweet.Js";
 
 function App() {
   return (
     <div className="box">
       <h1>Hello World</h1>
-      <TestComponent/>
+      <Tweet/>
       </div>
   );
 }
